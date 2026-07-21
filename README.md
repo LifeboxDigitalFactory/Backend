@@ -2,7 +2,7 @@
 
 API Django + DRF + Knox para la plataforma de cursos de ejemplo.
 
-## Requisitos (entorno virgen)
+## Requisitos (entorno vacío)
 
 Instala estas herramientas de sistema **antes** de clonar o correr el proyecto. No hay Docker ni base de datos externa: usa SQLite en disco.
 
