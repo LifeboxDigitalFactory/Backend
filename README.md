@@ -4,7 +4,7 @@ API Django + DRF + Knox para la plataforma de cursos de ejemplo.
 
 ## Requisitos (entorno vacío)
 
-Instala estas herramientas de sistema **antes** de clonar o correr el proyecto. No hay Docker ni base de datos externa: usa SQLite en disco.
+Instala estas herramientas de sistema **antes** de clonar o correr el proyecto. Por defecto no necesitas Docker ni una base de datos externa (el proyecto usa SQLite en disco), pero eres libre de usar Docker u otra base de datos si lo prefieres.
 
 ### 1. Git
 
@@ -84,7 +84,7 @@ Dependencias Python (se instalan con `pip install -r requirements.txt`):
 - django-cors-headers
 - python-dotenv
 
-Base de datos: SQLite (`db.sqlite3`, se crea al migrar). No hace falta PostgreSQL, Redis ni servicios extra.
+Base de datos: SQLite por defecto (`db.sqlite3`, se crea al migrar). No es obligatorio usar PostgreSQL, Redis u otros servicios, pero puedes hacerlo si lo prefieres.
 
 ## Usuarios de prueba (seeder)
 
